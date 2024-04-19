@@ -18,8 +18,7 @@ header
 .minus {
   margin-left: 770px; 
   
-  margin-top: -20px; 
-}
+  margin-top: -20px;
 .plus{
   margin-left: 770px; 
   margin-top: -20px;
@@ -70,8 +69,8 @@ a:hover{
   background-image: url(image1.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh; 
-  width: 100%; 
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
   position: relative;
   
 }
@@ -339,7 +338,7 @@ footer {
   text-align: justify;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 3; 
   -webkit-box-orient: vertical;
 }
 
@@ -350,7 +349,7 @@ footer {
 }
 
 .footer-right div {
-  padding: 0 20px; 
+  padding: 0 20px;
 }
 
 .footer-right h3 {
@@ -395,6 +394,16 @@ footer {
   .navbar .toggle-btn {
       display: block;
   }
+
+  .btn
+{
+  background-color: #F28D35;
+  width: 190px;
+  padding: 12px;
+  height: 7px;
+  margin-top: -1px;
+  cursor: pointer;
+}
   .banner-area {
       background-image: url(image1.jpg);
       background-size: cover;
@@ -407,27 +416,49 @@ footer {
   }
   .banner-area h1 {
       margin-top: -33px;
-      padding: 7%;
+      padding: 6%;
       color: white;
       font-size: 33px;
       margin-left: 30px;
       margin-right: 70px;
+     
   }
   .box {
       background-image: linear-gradient(to left, #1CBDDD, #4DCA79);
       width: 100%;
-      height: 190px;
+      height: 250px;
       position: relative;
       top: 310px; 
       left: 0;
   }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 4rem;
+}
+.wrapper-content{
+  margin-left: 30px; 
+  margin-top: 50px; 
+  margin-right: 60px;
+ 
+}
+
   .wrapper2 {
       display: grid;
       grid-template-columns: 1fr;
       align-items: center;
       gap: 4rem;
   }
-  
+  .desktop-image{
+    grid-column: 1 / -1;
+      margin-top: 20px;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+  }
   .tick-image {
       grid-column: 1 / -1; 
       margin-top: 20px; 
@@ -438,12 +469,14 @@ footer {
       margin-right: auto; 
   }
   .wrapper-content2 {
+    padding:3%; 
       margin-left: 20px; 
       margin-top: 50px;
   }
   .dropdown-menu{
     display: block;
   }  
+
 }
 
 @media(max-width:375px) {
@@ -474,7 +507,7 @@ footer {
       width: 100%;
       height: 190px;
       position: relative;
-      top: 240px; 
+      top: 300px; 
       left: 0;
   }
   .banner-area h1 {
@@ -485,6 +518,7 @@ footer {
       margin-right: 90px;
       margin-bottom: 20px;
   }
+
   .tick-image {
       grid-column: 1 / -1;
       margin-top: 20px;
