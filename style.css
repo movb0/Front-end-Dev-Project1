@@ -16,12 +16,12 @@ header
   background: #6B3CC9;
 }
 .minus {
-  margin-left: 770px; /* Adjusts the space to the left of the icon */
+  margin-left: 770px; 
   
-  margin-top: -20px; /* Aligns the icon vertically with the text */
+  margin-top: -20px; 
 }
 .plus{
-  margin-left: 770px; /* Adjusts the space to the left of the icon */
+  margin-left: 770px; 
   margin-top: -20px;
 }
 
@@ -70,8 +70,8 @@ a:hover{
   background-image: url(image1.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh; /* Full viewport height */
-  width: 100%; /* Full width */
+  height: 100vh; 
+  width: 100%; 
   position: relative;
   
 }
@@ -299,10 +299,10 @@ a:hover{
 {
     font-weight: bold;
     font-size: 15px;
-    background-color: #e0e0e0; /* Light grey color for the question box */
+    background-color: #e0e0e0; 
     padding: 20px;
     margin: 330px;
-    margin: 0 auto 20px auto; /* Centered horizontally with less vertical margin */
+    margin: 0 auto 20px auto; 
      max-width: 800px; 
   }
 .question-box2
@@ -310,10 +310,10 @@ a:hover{
   color: black;
   font-weight: bold;
     font-size: 15px;
-    background-color: #e0e0e0; /* Light grey color for the question box */
+    background-color: #e0e0e0; 
     padding: 20px;
     margin: 330px;
-    margin: 0 auto 20px auto; /* Centered horizontally with less vertical margin */
+    margin: 0 auto 20px auto; 
      max-width: 800px; 
 }
 footer {
@@ -330,12 +330,12 @@ footer {
 }
 
 .footer-left img {
-  width: 300px; /* Adjust as needed */
+  width: 300px; 
   margin-bottom: 10px;
 }
 
 .footer-left p {
-  max-width: 400px; /* Adjust width as necessary */
+  max-width: 400px; 
   text-align: justify;
   overflow: hidden;
   display: -webkit-box;
