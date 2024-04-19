@@ -339,18 +339,18 @@ footer {
   text-align: justify;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3; /* Number of lines you want */
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 
 .footer-right {
   display: flex;
   justify-content: space-between;
-  width: 60%; /* Adjust based on your layout preference */
+  width: 60%; 
 }
 
 .footer-right div {
-  padding: 0 20px; /* Increased padding for more space */
+  padding: 0 20px; 
 }
 
 .footer-right h3 {
@@ -374,8 +374,8 @@ footer {
   border: none;
   height: 1px;
   background-color: white;
-  width: 50%; /* Controls the width of the line */
-  margin: 10px auto; /* Centers the line horizontally */
+  width: 50%; 
+  margin: 10px auto; 
 }
 
 
@@ -399,7 +399,7 @@ footer {
       background-image: url(image1.jpg);
       background-size: cover;
       height: 500px;
-      width: 100%; /* changed from 90vh to 100% */
+      width: 100%; 
       position: relative;
   }
   .dropdown-menu {
@@ -415,10 +415,10 @@ footer {
   }
   .box {
       background-image: linear-gradient(to left, #1CBDDD, #4DCA79);
-      width: 100%; /* Adjusted width to full container */
+      width: 100%;
       height: 190px;
       position: relative;
-      top: 310px; /* Adjusted position to be higher */
+      top: 310px; 
       left: 0;
   }
   .wrapper2 {
@@ -429,16 +429,16 @@ footer {
   }
   
   .tick-image {
-      grid-column: 1 / -1; /* Span full width and come before content */
-      margin-top: 20px; /* Adjusted margin for visual appeal */
+      grid-column: 1 / -1; 
+      margin-top: 20px; 
       max-width: 100%;
       height: auto;
       display: block;
-      margin-left: auto; /* Center align */
-      margin-right: auto; /* Center align */
+      margin-left: auto;
+      margin-right: auto; 
   }
   .wrapper-content2 {
-      margin-left: 20px; /* Adjusted left margin for better alignment */
+      margin-left: 20px; 
       margin-top: 50px;
   }
   .dropdown-menu{
@@ -474,7 +474,7 @@ footer {
       width: 100%;
       height: 190px;
       position: relative;
-      top: 240px; /* Further adjustment to bring up */
+      top: 240px; 
       left: 0;
   }
   .banner-area h1 {
